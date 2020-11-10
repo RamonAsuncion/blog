@@ -19,3 +19,13 @@ a:hover {
 a:active {
 	color: #ffffff;
 }
+
+footer {
+	background-color: #a6a6a6;
+	width: 100%;
+	margin: 25px;
+
+	font-family: 'Lato', sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+}
