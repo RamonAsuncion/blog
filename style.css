@@ -1,4 +1,11 @@
 * {
+	margin: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	line-height: 30px;
 }
 
 a:link {
@@ -20,12 +27,18 @@ a:active {
 	color: #ffffff;
 }
 
-footer {
-	background-color: #a6a6a6;
+#footer {
+	background-color: #1f1f1f;
 	width: 100%;
 	margin: 25px;
 
 	font-family: 'Lato', sans-serif;
 	text-transform: capitalize;
 	text-align: center;
+}
+
+.site-footer {
+	background: #1f1f1f;
+	padding: 50px 0px 50px;
+	color: #d6d6d6;
 }
