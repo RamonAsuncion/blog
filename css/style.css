@@ -28,9 +28,6 @@ a:active {
 	color: #ffffff;
 }
 
-#footer {
-}
-
 .site-footer {
 	background: #1f1f1f;
 	padding: 60px 0px 55px;
@@ -83,7 +80,8 @@ a:active {
 	display: block;
 	list-style: none;
 	padding: 25px 0;
-	font-weight: 600;
+	font-weight: 500;
 	color: #ffffff;
 	text-transform: uppercase;
+	font-size: 17px;
 }
