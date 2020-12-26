@@ -4,7 +4,7 @@
 
 article {
 	display: grid;
-	grid-template-columns: 1fr 0.5in [beginning] minmax(0, 8fr) [end] 0.5in 1fr;
+	grid-template-columns: 1fr 0.5in [begin] minmax(0, 8fr) [end] 0.5in 1fr;
 	/*                     1     2        3           4    5*/
 
 	height: 100vh; /* fix later */
@@ -12,7 +12,7 @@ article {
 }
 
 article * {
-	grid-column: beginning / end;
+	grid-column: begin / end;
 }
 
 /* mobile article */
